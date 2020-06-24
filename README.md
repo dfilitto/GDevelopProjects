@@ -1,5 +1,8 @@
 # GDevelopProjects
-Jogos e mecânicas construídas em meus cursos e aulas utilizando a Engine GDevelop
+Jogos e mecânicas construídas em meus cursos e aulas utilizando a Engine GDevelop. Caso queira saber como construir esses jogos acesse:
+- dfilitto (site): https://dfilitto.com.br/
+- dfilitto (Udemy): https://www.udemy.com/user/danilo-filitto/
+- dfilitto (YouTube): https://www.youtube.com/danilofilittoppr
 ### BalloonClick
 Jogo no qual o player deve destruir os balões antes que eles cheguem ao topo da cena. Com o passar do tempo os balões ficam mais rápidos e caso algum balão saia da cena o jogador perde a vida. O jogo termina quando a vida do jogador chegar a zero.
 ### BottonCatch
