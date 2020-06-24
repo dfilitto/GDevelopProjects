@@ -1,0 +1,3172 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 98,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adMobAppId": "",
+    "folderProject": false,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "portrait",
+    "packageName": "br.com.dfilitto.balloonclick",
+    "projectFile": "D:\\Users\\Danilo Filitto\\OneDrive - sp.senac.br\\Documentos\\GDevelop projects\\BalloonClick\\game2.json",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "Balloon Click",
+    "author": "Danilo Filitto",
+    "windowWidth": 1080,
+    "windowHeight": 1920,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Background/burst/burst_background_small_screen_blue.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Background\\burst\\burst_background_small_screen_blue.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Background/burst/burst_background_small_screen_green.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Background\\burst\\burst_background_small_screen_green.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Background/burst/burst_background_small_screen_orange.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Background\\burst\\burst_background_small_screen_orange.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Background/burst/burst_background_small_screen_purple.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Background\\burst\\burst_background_small_screen_purple.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Background/burst/burst_background_small_screen_red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Background\\burst\\burst_background_small_screen_red.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Background/burst/burst_background_small_screen_yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Background\\burst\\burst_background_small_screen_yellow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/red-balloon/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\red-balloon\\1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/red-balloon/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\red-balloon\\2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/red-balloon/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\red-balloon\\3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/red-balloon/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\red-balloon\\4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/red-balloon/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\red-balloon\\5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/red-balloon/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\red-balloon\\6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/pink-ballon/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\pink-ballon\\1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/pink-ballon/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\pink-ballon\\2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/pink-ballon/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\pink-ballon\\3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/pink-ballon/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\pink-ballon\\4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/pink-ballon/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\pink-ballon\\5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/pink-ballon/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\pink-ballon\\6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/orange-balloon/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\orange-balloon\\1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/orange-balloon/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\orange-balloon\\2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/orange-balloon/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\orange-balloon\\3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/orange-balloon/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\orange-balloon\\4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/orange-balloon/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\orange-balloon\\5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/orange-balloon/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\orange-balloon\\6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/blue-balloon/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\blue-balloon\\1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/blue-balloon/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\blue-balloon\\2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/blue-balloon/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\blue-balloon\\3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/blue-balloon/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\blue-balloon\\4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/blue-balloon/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\blue-balloon\\5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/blue-balloon/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\blue-balloon\\6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/yellow-balloon/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\yellow-balloon\\1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/yellow-balloon/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\yellow-balloon\\2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/yellow-balloon/3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\yellow-balloon\\3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/yellow-balloon/4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\yellow-balloon\\4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/yellow-balloon/5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\yellow-balloon\\5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sprites/Balloon/yellow-balloon/6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sprites\\Balloon\\yellow-balloon\\6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "TimeSpawn",
+      "value": "5"
+    },
+    {
+      "name": "VelocityBalloon",
+      "value": "50"
+    },
+    {
+      "name": "Score",
+      "value": "0"
+    },
+    {
+      "name": "Life",
+      "value": "100"
+    }
+  ],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Main",
+      "name": "Main",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.31
+      },
+      "objectsGroups": [
+        {
+          "name": "Balloons",
+          "objects": [
+            {
+              "name": "RedBalloon"
+            },
+            {
+              "name": "PinkBalloon"
+            },
+            {
+              "name": "OrangeBalloon"
+            },
+            {
+              "name": "BlueBalloon"
+            },
+            {
+              "name": "YellowBalloon"
+            }
+          ]
+        }
+      ],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1920,
+          "layer": "",
+          "locked": false,
+          "name": "Background",
+          "width": 1080,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "locked": false,
+          "name": "Enemy",
+          "width": 1083,
+          "x": 0,
+          "y": -252,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "txtLife",
+          "width": 0,
+          "x": 27,
+          "y": 24,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "Background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Background\\burst\\burst_background_small_screen_blue.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Background\\burst\\burst_background_small_screen_green.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Background\\burst\\burst_background_small_screen_orange.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Background\\burst\\burst_background_small_screen_purple.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Background\\burst\\burst_background_small_screen_red.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Sprites\\Background\\burst\\burst_background_small_screen_yellow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RedBalloon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\red-balloon\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 378.5,
+                            "y": 162.5
+                          },
+                          {
+                            "x": 386.5,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 316.5,
+                            "y": 392.5
+                          },
+                          {
+                            "x": 262.5,
+                            "y": 454.5
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 288.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 146.5
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 58.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pop",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\red-balloon\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 378.5,
+                            "y": 162.5
+                          },
+                          {
+                            "x": 386.5,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 316.5,
+                            "y": 392.5
+                          },
+                          {
+                            "x": 262.5,
+                            "y": 454.5
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 288.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 146.5
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 58.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\red-balloon\\2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 378.5,
+                            "y": 162.5
+                          },
+                          {
+                            "x": 386.5,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 316.5,
+                            "y": 392.5
+                          },
+                          {
+                            "x": 262.5,
+                            "y": 454.5
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 288.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 146.5
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 58.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\red-balloon\\3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 378.5,
+                            "y": 162.5
+                          },
+                          {
+                            "x": 386.5,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 316.5,
+                            "y": 392.5
+                          },
+                          {
+                            "x": 262.5,
+                            "y": 454.5
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 288.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 146.5
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 58.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\red-balloon\\4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 378.5,
+                            "y": 162.5
+                          },
+                          {
+                            "x": 386.5,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 316.5,
+                            "y": 392.5
+                          },
+                          {
+                            "x": 262.5,
+                            "y": 454.5
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 288.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 146.5
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 58.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\red-balloon\\5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 378.5,
+                            "y": 162.5
+                          },
+                          {
+                            "x": 386.5,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 316.5,
+                            "y": 392.5
+                          },
+                          {
+                            "x": 262.5,
+                            "y": 454.5
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 288.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 146.5
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 58.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\red-balloon\\6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 378.5,
+                            "y": 162.5
+                          },
+                          {
+                            "x": 386.5,
+                            "y": 308.5
+                          },
+                          {
+                            "x": 316.5,
+                            "y": 392.5
+                          },
+                          {
+                            "x": 262.5,
+                            "y": 454.5
+                          },
+                          {
+                            "x": 124.5,
+                            "y": 288.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 146.5
+                          },
+                          {
+                            "x": 256.5,
+                            "y": 58.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PinkBalloon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\pink-ballon\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 130.5
+                          },
+                          {
+                            "x": 396.5,
+                            "y": 292.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 422.5
+                          },
+                          {
+                            "x": 130.5,
+                            "y": 316.5
+                          },
+                          {
+                            "x": 136.5,
+                            "y": 134.5
+                          },
+                          {
+                            "x": 266.5,
+                            "y": 52.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pop",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\pink-ballon\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 130.5
+                          },
+                          {
+                            "x": 396.5,
+                            "y": 292.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 422.5
+                          },
+                          {
+                            "x": 130.5,
+                            "y": 316.5
+                          },
+                          {
+                            "x": 136.5,
+                            "y": 134.5
+                          },
+                          {
+                            "x": 266.5,
+                            "y": 52.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\pink-ballon\\2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 130.5
+                          },
+                          {
+                            "x": 396.5,
+                            "y": 292.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 422.5
+                          },
+                          {
+                            "x": 130.5,
+                            "y": 316.5
+                          },
+                          {
+                            "x": 136.5,
+                            "y": 134.5
+                          },
+                          {
+                            "x": 266.5,
+                            "y": 52.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\pink-ballon\\3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 130.5
+                          },
+                          {
+                            "x": 396.5,
+                            "y": 292.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 422.5
+                          },
+                          {
+                            "x": 130.5,
+                            "y": 316.5
+                          },
+                          {
+                            "x": 136.5,
+                            "y": 134.5
+                          },
+                          {
+                            "x": 266.5,
+                            "y": 52.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\pink-ballon\\4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 130.5
+                          },
+                          {
+                            "x": 396.5,
+                            "y": 292.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 422.5
+                          },
+                          {
+                            "x": 130.5,
+                            "y": 316.5
+                          },
+                          {
+                            "x": 136.5,
+                            "y": 134.5
+                          },
+                          {
+                            "x": 266.5,
+                            "y": 52.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\pink-ballon\\5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 130.5
+                          },
+                          {
+                            "x": 396.5,
+                            "y": 292.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 422.5
+                          },
+                          {
+                            "x": 130.5,
+                            "y": 316.5
+                          },
+                          {
+                            "x": 136.5,
+                            "y": 134.5
+                          },
+                          {
+                            "x": 266.5,
+                            "y": 52.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\pink-ballon\\6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 130.5
+                          },
+                          {
+                            "x": 396.5,
+                            "y": 292.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 422.5
+                          },
+                          {
+                            "x": 130.5,
+                            "y": 316.5
+                          },
+                          {
+                            "x": 136.5,
+                            "y": 134.5
+                          },
+                          {
+                            "x": 266.5,
+                            "y": 52.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "OrangeBalloon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\orange-balloon\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 158.5
+                          },
+                          {
+                            "x": 384.5,
+                            "y": 330.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 446.5
+                          },
+                          {
+                            "x": 158.5,
+                            "y": 354.5
+                          },
+                          {
+                            "x": 128.5,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 154.5
+                          },
+                          {
+                            "x": 268.5,
+                            "y": 54.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pop",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\orange-balloon\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 158.5
+                          },
+                          {
+                            "x": 384.5,
+                            "y": 330.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 446.5
+                          },
+                          {
+                            "x": 158.5,
+                            "y": 354.5
+                          },
+                          {
+                            "x": 128.5,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 154.5
+                          },
+                          {
+                            "x": 268.5,
+                            "y": 54.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\orange-balloon\\2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 158.5
+                          },
+                          {
+                            "x": 384.5,
+                            "y": 330.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 446.5
+                          },
+                          {
+                            "x": 158.5,
+                            "y": 354.5
+                          },
+                          {
+                            "x": 128.5,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 154.5
+                          },
+                          {
+                            "x": 268.5,
+                            "y": 54.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\orange-balloon\\3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 158.5
+                          },
+                          {
+                            "x": 384.5,
+                            "y": 330.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 446.5
+                          },
+                          {
+                            "x": 158.5,
+                            "y": 354.5
+                          },
+                          {
+                            "x": 128.5,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 154.5
+                          },
+                          {
+                            "x": 268.5,
+                            "y": 54.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\orange-balloon\\4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 158.5
+                          },
+                          {
+                            "x": 384.5,
+                            "y": 330.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 446.5
+                          },
+                          {
+                            "x": 158.5,
+                            "y": 354.5
+                          },
+                          {
+                            "x": 128.5,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 154.5
+                          },
+                          {
+                            "x": 268.5,
+                            "y": 54.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\orange-balloon\\5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 158.5
+                          },
+                          {
+                            "x": 384.5,
+                            "y": 330.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 446.5
+                          },
+                          {
+                            "x": 158.5,
+                            "y": 354.5
+                          },
+                          {
+                            "x": 128.5,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 154.5
+                          },
+                          {
+                            "x": 268.5,
+                            "y": 54.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\orange-balloon\\6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 158.5
+                          },
+                          {
+                            "x": 384.5,
+                            "y": 330.5
+                          },
+                          {
+                            "x": 264.5,
+                            "y": 446.5
+                          },
+                          {
+                            "x": 158.5,
+                            "y": 354.5
+                          },
+                          {
+                            "x": 128.5,
+                            "y": 280.5
+                          },
+                          {
+                            "x": 134.5,
+                            "y": 154.5
+                          },
+                          {
+                            "x": 268.5,
+                            "y": 54.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BlueBalloon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\blue-balloon\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 336.333,
+                            "y": 77.6667
+                          },
+                          {
+                            "x": 404.333,
+                            "y": 259
+                          },
+                          {
+                            "x": 272.333,
+                            "y": 413.667
+                          },
+                          {
+                            "x": 123,
+                            "y": 284.333
+                          },
+                          {
+                            "x": 155,
+                            "y": 101.667
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pop",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\blue-balloon\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 336.333,
+                            "y": 77.6667
+                          },
+                          {
+                            "x": 404.333,
+                            "y": 259
+                          },
+                          {
+                            "x": 272.333,
+                            "y": 413.667
+                          },
+                          {
+                            "x": 123,
+                            "y": 284.333
+                          },
+                          {
+                            "x": 155,
+                            "y": 101.667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\blue-balloon\\2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 336.333,
+                            "y": 77.6667
+                          },
+                          {
+                            "x": 404.333,
+                            "y": 259
+                          },
+                          {
+                            "x": 272.333,
+                            "y": 413.667
+                          },
+                          {
+                            "x": 123,
+                            "y": 284.333
+                          },
+                          {
+                            "x": 155,
+                            "y": 101.667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\blue-balloon\\3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 336.333,
+                            "y": 77.6667
+                          },
+                          {
+                            "x": 404.333,
+                            "y": 259
+                          },
+                          {
+                            "x": 272.333,
+                            "y": 413.667
+                          },
+                          {
+                            "x": 123,
+                            "y": 284.333
+                          },
+                          {
+                            "x": 155,
+                            "y": 101.667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\blue-balloon\\4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 336.333,
+                            "y": 77.6667
+                          },
+                          {
+                            "x": 404.333,
+                            "y": 259
+                          },
+                          {
+                            "x": 272.333,
+                            "y": 413.667
+                          },
+                          {
+                            "x": 123,
+                            "y": 284.333
+                          },
+                          {
+                            "x": 155,
+                            "y": 101.667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\blue-balloon\\5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 336.333,
+                            "y": 77.6667
+                          },
+                          {
+                            "x": 404.333,
+                            "y": 259
+                          },
+                          {
+                            "x": 272.333,
+                            "y": 413.667
+                          },
+                          {
+                            "x": 123,
+                            "y": 284.333
+                          },
+                          {
+                            "x": 155,
+                            "y": 101.667
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\blue-balloon\\6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 336.333,
+                            "y": 77.6667
+                          },
+                          {
+                            "x": 404.333,
+                            "y": 259
+                          },
+                          {
+                            "x": 272.333,
+                            "y": 413.667
+                          },
+                          {
+                            "x": 123,
+                            "y": 284.333
+                          },
+                          {
+                            "x": 155,
+                            "y": 101.667
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "YellowBalloon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\yellow-balloon\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 174.5
+                          },
+                          {
+                            "x": 318.5,
+                            "y": 388.5
+                          },
+                          {
+                            "x": 138.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 156.5,
+                            "y": 124.5
+                          },
+                          {
+                            "x": 294.5,
+                            "y": 72.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Pop",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\yellow-balloon\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 174.5
+                          },
+                          {
+                            "x": 318.5,
+                            "y": 388.5
+                          },
+                          {
+                            "x": 138.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 156.5,
+                            "y": 124.5
+                          },
+                          {
+                            "x": 294.5,
+                            "y": 72.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\yellow-balloon\\2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 174.5
+                          },
+                          {
+                            "x": 318.5,
+                            "y": 388.5
+                          },
+                          {
+                            "x": 138.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 156.5,
+                            "y": 124.5
+                          },
+                          {
+                            "x": 294.5,
+                            "y": 72.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\yellow-balloon\\3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 174.5
+                          },
+                          {
+                            "x": 318.5,
+                            "y": 388.5
+                          },
+                          {
+                            "x": 138.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 156.5,
+                            "y": 124.5
+                          },
+                          {
+                            "x": 294.5,
+                            "y": 72.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\yellow-balloon\\4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 174.5
+                          },
+                          {
+                            "x": 318.5,
+                            "y": 388.5
+                          },
+                          {
+                            "x": 138.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 156.5,
+                            "y": 124.5
+                          },
+                          {
+                            "x": 294.5,
+                            "y": 72.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\yellow-balloon\\5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 174.5
+                          },
+                          {
+                            "x": 318.5,
+                            "y": 388.5
+                          },
+                          {
+                            "x": 138.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 156.5,
+                            "y": 124.5
+                          },
+                          {
+                            "x": 294.5,
+                            "y": 72.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Sprites\\Balloon\\yellow-balloon\\6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 382.5,
+                            "y": 174.5
+                          },
+                          {
+                            "x": 318.5,
+                            "y": 388.5
+                          },
+                          {
+                            "x": 138.5,
+                            "y": 346.5
+                          },
+                          {
+                            "x": 156.5,
+                            "y": 124.5
+                          },
+                          {
+                            "x": 294.5,
+                            "y": 72.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Enemy",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "txtLife",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "100",
+          "font": "",
+          "characterSize": 60,
+          "color": {
+            "b": 245,
+            "g": 245,
+            "r": 250
+          }
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Inicia as variais do jogo",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "TimeSpawn",
+                "=",
+                "1.5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "VelocityBalloon",
+                "=",
+                "150"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Score",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Life",
+                "=",
+                "100"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Troca a animação do balão ao clicar no mesmo e deleta o balão após finalizar a animação",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Balloons",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "Balloons",
+                "MouseX(\"Main\", )",
+                "MouseY(\"Main\", )"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Balloons",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Balloons"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Animation"
+              },
+              "parameters": [
+                "Balloons",
+                "=",
+                "1"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Balloons",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Cria os balões e movimenta os mesmos",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "GlobalVariable(TimeSpawn)",
+                "\"SpawnBalloon\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"SpawnBalloon\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "BalloonSelect",
+                "=",
+                "RandomInRange(1, 5)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "BalloonSelec",
+                    "=",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "RedBalloon",
+                    "RandomInRange(100, 700)",
+                    "1900",
+                    "\"Main\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "RedBalloon",
+                    "RandomInRange(255, 285)",
+                    "GlobalVariable(VelocityBalloon)",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "BalloonSelect",
+                    "=",
+                    "2"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "PinkBalloon",
+                    "RandomInRange(100, 700)",
+                    "1900",
+                    "\"Main\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "PinkBalloon",
+                    "RandomInRange(255, 285)",
+                    "GlobalVariable(VelocityBalloon)",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "BalloonSelect",
+                    "=",
+                    "3"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "OrangeBalloon",
+                    "RandomInRange(100, 700)",
+                    "1900",
+                    "\"Main\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "OrangeBalloon",
+                    "RandomInRange(255, 285)",
+                    "GlobalVariable(VelocityBalloon)",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "BalloonSelect",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "BlueBalloon",
+                    "RandomInRange(100, 700)",
+                    "1900",
+                    "\"Main\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "BlueBalloon",
+                    "RandomInRange(255, 285)",
+                    "GlobalVariable(VelocityBalloon)",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "BalloonSelect",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "YellowBalloon",
+                    "RandomInRange(100, 700)",
+                    "1900",
+                    "\"Main\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "YellowBalloon",
+                    "RandomInRange(255, 285)",
+                    "GlobalVariable(VelocityBalloon)",
+                    "1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Alterando a velocidade dos balões",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Timer"
+              },
+              "parameters": [
+                "",
+                "3",
+                "\"TimeVelocity\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"TimeVelocity\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "VelocityBalloon",
+                "+",
+                "50"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "TimeSpawn",
+                    ">",
+                    "0.25"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "TimeSpawn",
+                    "-",
+                    "0.1"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Remove a vida do player",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Enemy",
+                "Balloons",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Delete"
+              },
+              "parameters": [
+                "Balloons",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Life",
+                "-",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::String"
+              },
+              "parameters": [
+                "txtLife",
+                "=",
+                "GlobalVariableString(Life)"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "Main",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "HUD",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
