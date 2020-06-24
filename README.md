@@ -1,5 +1,6 @@
 # GDevelopProjects
-Jogos e mecânicas construídas em meus cursos e aulas utilizando a Engine GDevelop. Caso queira saber como construir esses jogos acesse:
+Jogos e mecânicas construídas em meus cursos e aulas utilizando a Engine GDevelop. 
+Caso queira aprender como construir esses jogos acesse:
 - dfilitto (site): https://dfilitto.com.br/
 - dfilitto (Udemy): https://www.udemy.com/user/danilo-filitto/
 - dfilitto (YouTube): https://www.youtube.com/danilofilittoppr
